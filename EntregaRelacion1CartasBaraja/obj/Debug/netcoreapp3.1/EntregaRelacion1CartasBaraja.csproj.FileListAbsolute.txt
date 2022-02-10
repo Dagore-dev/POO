@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.exe
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.deps.json
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.runtimeconfig.json
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.dll
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.pdb
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.dll
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.pdb
+G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.genruntimeconfig.cache

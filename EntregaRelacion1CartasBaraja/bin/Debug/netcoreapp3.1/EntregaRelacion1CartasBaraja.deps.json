@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EntregaRelacion1CartasBaraja/1.0.0": {
+        "runtime": {
+          "EntregaRelacion1CartasBaraja.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntregaRelacion1CartasBaraja/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
