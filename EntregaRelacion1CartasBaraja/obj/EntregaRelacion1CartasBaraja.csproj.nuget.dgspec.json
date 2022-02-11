@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Repositorios\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj": {}
+    "C:\\Users\\dagor\\source\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj": {}
   },
   "projects": {
-    "G:\\Repositorios\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj": {
+    "C:\\Users\\dagor\\source\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Repositorios\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj",
+        "projectUniqueName": "C:\\Users\\dagor\\source\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj",
         "projectName": "EntregaRelacion1CartasBaraja",
-        "projectPath": "G:\\Repositorios\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj",
-        "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-        "outputPath": "G:\\Repositorios\\POO\\EntregaRelacion1CartasBaraja\\obj\\",
+        "projectPath": "C:\\Users\\dagor\\source\\POO\\EntregaRelacion1CartasBaraja\\EntregaRelacion1CartasBaraja.csproj",
+        "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dagor\\source\\POO\\EntregaRelacion1CartasBaraja\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

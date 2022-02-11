@@ -12,3 +12,17 @@ G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\Entrega
 G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.dll
 G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.pdb
 G:\Repositorios\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.genruntimeconfig.cache
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.exe
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.deps.json
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.runtimeconfig.json
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.runtimeconfig.dev.json
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.dll
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\bin\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.pdb
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.csproj.AssemblyReference.cache
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.AssemblyInfoInputs.cache
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.AssemblyInfo.cs
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.dll
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.pdb
+C:\Users\dagor\source\POO\EntregaRelacion1CartasBaraja\obj\Debug\netcoreapp3.1\EntregaRelacion1CartasBaraja.genruntimeconfig.cache

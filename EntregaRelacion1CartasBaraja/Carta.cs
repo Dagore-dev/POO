@@ -14,29 +14,29 @@ namespace EntregaRelacion1CartasBaraja
     class Carta
     {
         /*ATRIBUTOS*/
-        private int numero;
-        private Palo palo;
+        private int _numero;
+        private Palo _palo;
 
         /*CONSTRUCTORES*/
         public Carta (int numero, Palo palo)
         {
             if (NumeroIsValid(numero))
             {
-                this.numero = numero;
+                _numero = numero;
             }
             else
             {
                 throw new Exception("El número no existe en la baraja española.");
             }
             
-            this.palo = palo;
+            _palo = palo;
         }
         public Carta (int id)
         {
             if (IdIsValid(id))
             {
-                this.numero = GetNumeroById(id);
-                this.palo = GetPaloById(id);
+                _numero = GetNumeroById(id);
+                _palo = GetPaloById(id);
             }
             else
             {
@@ -45,8 +45,8 @@ namespace EntregaRelacion1CartasBaraja
         }
 
         /*PROPIEDADES*/
-        public int NumeroCarta { get => numero; }
-        public Palo PaloCarta { get => palo; }
+        public int NumeroCarta { get => _numero; }
+        public Palo PaloCarta { get => _palo; }
         public string NombreNumero
         {
             get
