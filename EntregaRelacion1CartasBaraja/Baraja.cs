@@ -10,10 +10,17 @@ namespace EntregaRelacion1CartasBaraja
         private List<Carta> _listaCartas;
 
         /*CONSTRUCTORES*/
+        /// <summary>
+        /// Crea una baraja vacía.
+        /// </summary>
         public Baraja ()
         {
             _listaCartas = new List<Carta>();
         }
+        /// <summary>
+        /// Crea una baraja española.
+        /// </summary>
+        /// <param name="shuffle">True para barajar, false para tener una baraja ordenada que va del As de oros al Rey de bastos.</param>
         public Baraja (bool shuffle)
         {
             _listaCartas = new List<Carta>();
@@ -27,11 +34,14 @@ namespace EntregaRelacion1CartasBaraja
 
             if (shuffle)
             {
-                _listaCartas = DesordenaLista(_listaCartas);
+                Barajar();
             }
         }
 
         /*PROPIEDADES*/
+        /// <summary>
+        /// Número de cartas en la baraja.
+        /// </summary>
         public int NumeroCartas
         {
             get
@@ -39,6 +49,9 @@ namespace EntregaRelacion1CartasBaraja
                 return _listaCartas.Count;
             }
         }
+        /// <summary>
+        /// Baraja vacía o no.
+        /// </summary>
         public bool Vacia
         {
             get
@@ -48,10 +61,17 @@ namespace EntregaRelacion1CartasBaraja
         }
 
         /*MÉTODOS*/
+        /// <summary>
+        /// Desordena la lista que representa nuestra baraja.
+        /// </summary>
         public void Barajar ()
         {
             _listaCartas = DesordenaLista(_listaCartas);
         }
+        /// <summary>
+        /// Corta la baraja, pasa cartas del principio al final.
+        /// </summary>
+        /// <param name="position">Un número posible de cartas que pasar al final de la baraja.</param>
         public void Cortar (int position)
         {
             if (position > 0 && position < _listaCartas.Count)
@@ -65,6 +85,10 @@ namespace EntregaRelacion1CartasBaraja
                 throw new Exception("No existe la posición en la baraja.");
             }
         }
+        /// <summary>
+        /// Devuelve la primera carta de la baraja y la elimina de esta.
+        /// </summary>
+        /// <returns>Un objeto de tipo Carta.</returns>
         public Carta Robar ()
         {
             Carta primera;
@@ -81,20 +105,36 @@ namespace EntregaRelacion1CartasBaraja
 
             return primera;
         }
+        /// <summary>
+        /// Inserta una carta al final.
+        /// </summary>
+        /// <param name="idCarta">Un entero entre 1 y 40 que representa el id de la carta.</param>
         public void InsertaCartaAlFinal (int idCarta)
         {
             Carta nuevaCarta = new Carta(idCarta);
             _listaCartas.Add(nuevaCarta);
         }
+        /// <summary>
+        /// Inserta una carta al final.
+        /// </summary>
+        /// <param name="carta">Un objeto tipo Carta.</param>
         public void InsertaCartaAlFinal (Carta carta)
         {
             _listaCartas.Add(carta);
         }
+        /// <summary>
+        /// Inserta una carta al principio.
+        /// </summary>
+        /// <param name="idCarta">Un entero entre 1 y 40 que representa el id de la carta.</param>
         public void InsertaCartaPrincipio (int idCarta)
         {
             Carta nuevaCarta = new Carta(idCarta);
             _listaCartas.Insert(0, nuevaCarta);
         }
+        /// <summary>
+        /// Inserta una carta al principio.
+        /// </summary>
+        /// <param name="carta">Un objeto tipo Carta.</param>
         public void InsertaCartaPrincipio (Carta carta)
         {
             _listaCartas.Insert(0, carta);
@@ -116,7 +156,6 @@ namespace EntregaRelacion1CartasBaraja
         /*HELPERS*/
         private List<Carta> DesordenaLista(List<Carta> l)
         {
-            //Escribe la función DesordenaLista a la que le pasas una lista y te la desordena. Para ello, iremos cogiendo al azar elementos de la lista y poniéndolos en otra lista(quitándolos de la primera).La segunda lista, contendrá los elementos al azar.
             List<Carta> result = new List<Carta>();
             Random r = new Random();
             int randomIndex;

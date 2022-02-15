@@ -27,9 +27,9 @@ namespace EntregaRelacion1CartasBaraja
                 {
                     Console.Write($"{pool[i]}, ");
                 }
-                
+
                 Console.WriteLine($"tienes {points} puntos.");
-                
+
                 if (points > 7.5m)
                 {
                     Console.WriteLine("Te has pasado!");

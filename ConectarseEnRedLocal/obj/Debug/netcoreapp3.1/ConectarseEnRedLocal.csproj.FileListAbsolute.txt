@@ -1,0 +1,14 @@
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.exe
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.deps.json
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.runtimeconfig.json
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.runtimeconfig.dev.json
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.dll
+G:\Repositorios\POO\ConectarseEnRedLocal\bin\Debug\netcoreapp3.1\ConectarseEnRedLocal.pdb
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.csproj.AssemblyReference.cache
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.AssemblyInfoInputs.cache
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.AssemblyInfo.cs
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.dll
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.pdb
+G:\Repositorios\POO\ConectarseEnRedLocal\obj\Debug\netcoreapp3.1\ConectarseEnRedLocal.genruntimeconfig.cache

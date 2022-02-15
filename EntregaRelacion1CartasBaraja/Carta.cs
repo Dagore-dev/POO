@@ -18,6 +18,11 @@ namespace EntregaRelacion1CartasBaraja
         private Palo _palo;
 
         /*CONSTRUCTORES*/
+        /// <summary>
+       /// Crea una carta con un número y palo determinados.
+       /// </summary>
+       /// <param name="numero">Número del 1 al 12 que no sean 8 o 9</param>
+       /// <param name="palo">Oros, Copas, Espadas y Bastos</param>
         public Carta (int numero, Palo palo)
         {
             if (NumeroIsValid(numero))
@@ -31,6 +36,10 @@ namespace EntregaRelacion1CartasBaraja
             
             _palo = palo;
         }
+        /// <summary>
+        /// Crea una carta a partir de un id. Siendo el 1 el "as de oros" y 40 el "rey de bastos".
+        /// </summary>
+        /// <param name="id">Un valor entre 1 y 40, ambos incluidos.</param>
         public Carta (int id)
         {
             if (IdIsValid(id))
@@ -45,9 +54,18 @@ namespace EntregaRelacion1CartasBaraja
         }
 
         /*PROPIEDADES*/
+        /// <summary>
+        /// Devuelve un entero con el número de la carta.
+        /// </summary>
         public int NumeroCarta { get => _numero; }
+        /// <summary>
+        /// Devuelve un enum con el palo de la carta.
+        /// </summary>
         public Palo PaloCarta { get => _palo; }
-        public string NombreNumero
+        /// <summary>
+        /// Devuelve el nombre del número de la carta ("As", "Dos", ..., "Sota", "Caballo", "Rey").
+        /// </summary>
+        private string NombreNumero
         {
             get
             {
@@ -55,13 +73,19 @@ namespace EntregaRelacion1CartasBaraja
                 return nombres[NumeroCarta];
             }
         }
-        public string NombrePalo
+        /// <summary>
+        /// Devuelve un string con el palo de la carta.
+        /// </summary>
+        private string NombrePalo
         {
             get
             {
                 return PaloCarta.ToString().ToLower();
             }
         }
+        /// <summary>
+        /// Devuelve un string con el nombre completo de la carta ("As de copas", "Tres de bastos").
+        /// </summary>
         public string NombreCarta
         {
             get
@@ -69,6 +93,9 @@ namespace EntregaRelacion1CartasBaraja
                 return $"{NombreNumero} de {NombrePalo}";
             }
         }
+        /// <summary>
+        /// Devuelve un entero con el valor de la carta en el Tute.
+        /// </summary>
         public int ValorTute
         {
             get
@@ -88,6 +115,9 @@ namespace EntregaRelacion1CartasBaraja
                 return valorTute;
             }
         }
+        /// <summary>
+        /// Devuelve un entero con el valor de la carta en el Mus.
+        /// </summary>
         public int ValorMus
         {
             get
@@ -107,6 +137,9 @@ namespace EntregaRelacion1CartasBaraja
                 return ValorMus;
             }
         }
+        /// <summary>
+        /// Devuelve un decimal con el valor de la carta en las 7 y media.
+        /// </summary>
         public decimal Valor7ymedia
         {
             get
@@ -134,25 +167,11 @@ namespace EntregaRelacion1CartasBaraja
         /*HELPERS*/
         private bool NumeroIsValid(int numero)
         {
-            bool isValid = true;
-
-            if (numero < 1 || numero > 12 || numero == 8 || numero == 9)
-            {
-                isValid = false;
-            }
-
-            return isValid;
+            return numero > 0 && numero < 13 && numero != 8 && numero != 9;
         }
         private bool IdIsValid(int id)
         {
-            bool isValid = true;
-
-            if (id < 1 || id > 40)
-            {
-                isValid = false;
-            }
-
-            return isValid;
+            return id >= 1 && id <= 40;
         }
         private int GetNumeroById (int id)
         {
@@ -172,26 +191,7 @@ namespace EntregaRelacion1CartasBaraja
         }
         private Palo GetPaloById (int id)
         {
-            Palo palo;
-
-            if (id < 11)
-            {
-                palo = Palo.Oros;
-            }
-            else if (id < 21)
-            {
-                palo = Palo.Copas;
-            }
-            else if (id < 31)
-            {
-                palo = Palo.Espadas;
-            }
-            else
-            {
-                palo = Palo.Bastos;
-            }
-
-            return palo;
+            return (Palo) ((id - 1) / 10);
         }
     }
 }
