@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.exe
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.deps.json
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.runtimeconfig.json
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.dll
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\bin\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.pdb
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.dll
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.pdb
+G:\Repositorios\POO\EntregaRelacion2AlumnoGrupo\obj\Debug\netcoreapp3.1\EntregaRelacion2AlumnoGrupo.genruntimeconfig.cache
