@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaRelacion2VideojuegoColeccion", "EntregaRelacion2VideojuegoColeccion.csproj", "{0FA937DC-B3C0-42C5-B60D-8D505B45D41E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FA937DC-B3C0-42C5-B60D-8D505B45D41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA937DC-B3C0-42C5-B60D-8D505B45D41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA937DC-B3C0-42C5-B60D-8D505B45D41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA937DC-B3C0-42C5-B60D-8D505B45D41E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {041F4F07-4388-4BDC-8DF8-B5CE89560D1F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.exe
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.deps.json
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.runtimeconfig.json
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.dll
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\bin\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.pdb
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.dll
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.pdb
+G:\Repositorios\POO\EntregaRelacion2VideojuegoColeccion\obj\Debug\netcoreapp3.1\EntregaRelacion2VideojuegoColeccion.genruntimeconfig.cache
