@@ -79,11 +79,27 @@ namespace TresEnRaya
         }
         public void MueveOrdenadorUno ()
         {
-            throw new NotImplementedException();
+            Random r = new Random();
+            int position = r.Next(1, 10);
+
+            while (!MovimientoValido(position))
+            {
+                position = r.Next(1, 10);
+            }
+
+            MueveJugadorUno(position);
         }
         public void MueveOrdenadorDos ()
         {
-            throw new NotImplementedException();
+            Random r = new Random();
+            int position = r.Next(1, 10);
+
+            while (!MovimientoValido(position))
+            {
+                position = r.Next(1, 10);
+            }
+
+            MueveJugadorDos(position);
         }
         public bool QuedanMovimientos ()
         {
