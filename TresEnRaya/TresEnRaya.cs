@@ -4,52 +4,15 @@ using System.Text;
 
 namespace TresEnRaya
 {
-    class Position
+    struct Coordinate
     {
-        private int row;
-        private int col;
+        public int row;
+        public int col;
 
-        public Position(int row, int col)
+        public Coordinate(int row, int col)
         {
-            Row = row;
-            Col = col;
-        }
-
-        public int Row
-        {
-            get
-            {
-                return row;
-            }
-            set
-            {
-                if (value >= 1 && value <= 9)
-                {
-                    row = value;
-                }
-                else
-                {
-                    throw new Exception("La posición no existe.");
-                }
-            }
-        }
-        public int Col
-        {
-            get
-            {
-                return col;
-            }
-            set
-            {
-                if (value >= 1 && value <= 9)
-                {
-                    col = value;
-                }
-                else
-                {
-                    throw new Exception("La posición no existe.");
-                }
-            }
+            this.row = row;
+            this.col = col;
         }
     }
     class TresEnRaya
@@ -74,26 +37,40 @@ namespace TresEnRaya
                 }
             }
         }
-        public bool MovimientoValido (Position position)
+        public bool MovimientoValido (int position)
         {
-            return tablero[position.Row, position.Col] != 0;
+            bool isValid = false;
+
+            if (position > 0 && position < 10)
+            {
+                
+                isValid = GetCoordinateValue(position) == 0;
+            }
+
+            return isValid;
         }
-        public void MueveJugadorUno (Position position)
+        public void MueveJugadorUno (int position)
         {
+            Coordinate coordinate;
+
             if (MovimientoValido(position))
             {
-                tablero[position.Row, position.Col] = 1;
+                coordinate = GetCoordinate(position);    
+                tablero[coordinate.row, coordinate.col] = 1;
             }
             else
             {
                 throw new Exception("La posición ya está ocupada.");
             }
         }
-        public void MueveJugadorDos (Position position)
+        public void MueveJugadorDos (int position)
         {
+            Coordinate coordinate;
+
             if (MovimientoValido(position))
             {
-                tablero[position.Row, position.Col] = 2;
+                coordinate = GetCoordinate(position);
+                tablero[coordinate.row, coordinate.col] = 2;
             }
             else
             {
@@ -127,12 +104,131 @@ namespace TresEnRaya
         }
         public bool GanaJugadorUno ()
         {
-            throw new NotImplementedException();
+            bool ganaJugadorUno = false;
+            int i = 0, j = 0;
+
+            while (!ganaJugadorUno && i < 3)
+            {
+                if (tablero[i, 0] == 1 && tablero[i, 1] == 1 && tablero[i, 2] == 1)
+                {
+                    ganaJugadorUno = true;
+                }
+
+                i++;
+            }
+
+            while (!ganaJugadorUno && j < 3)
+            {
+                if (tablero[0, j] == 1 && tablero[1, j] == 1 && tablero[2, j] == 1)
+                {
+                    ganaJugadorUno = true;
+                }
+
+                j++;
+            }
+
+            if (tablero[0, 0] == 1 && tablero[1, 1] == 1 && tablero[2, 2] == 1)
+            {
+                ganaJugadorUno = true;
+            }
+
+            if (tablero[0, 2] == 1 && tablero[1, 1] == 1 && tablero[2, 0] == 1)
+            {
+                ganaJugadorUno = true;
+            }
+
+            return ganaJugadorUno;
         }
         public bool GanaJugadorDos ()
         {
-            throw new NotImplementedException();
-        }
+            bool ganaJugadorDos = false;
+            int i = 0, j = 0;
 
+            while (!ganaJugadorDos && i < 3)
+            {
+                if (tablero[i, 0] == 2 && tablero[i, 1] == 2 && tablero[i, 2] == 2)
+                {
+                    ganaJugadorDos = true;
+                }
+
+                i++;
+            }
+
+            while (!ganaJugadorDos && j < 3)
+            {
+                if (tablero[0, j] == 2 && tablero[1, j] == 2 && tablero[2, j] == 2)
+                {
+                    ganaJugadorDos = true;
+                }
+
+                j++;
+            }
+
+            if (tablero[0, 0] == 2 && tablero[1, 1] == 2 && tablero[2, 2] == 2)
+            {
+                ganaJugadorDos = true;
+            }
+
+            if (tablero[0, 2] == 2 && tablero[1, 1] == 2 && tablero[2, 0] == 2)
+            {
+                ganaJugadorDos = true;
+            }
+
+            return ganaJugadorDos;
+        }
+        public void DibujaTablero ()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write($"{tablero[i,j]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
+        private Coordinate GetCoordinate (int position)
+        {
+            /*
+            1 2 3  0,0 0,1 0,2
+            4 5 6  1,0 1,1 1,2
+            7 8 9  2,0 2,1 2,2
+
+            1 = 0 0
+            2 = 0 1
+            3 = 0 2
+            4 = 1 0
+            5 = 1 1
+            6 = 1 2
+            7 = 2 0
+            8 = 2 1
+            9 = 2 2
+            */
+            int row, col;
+
+            if (position < 4)
+            {
+                row = 0;
+                col = position - 1;
+            }
+            else if (position < 7)
+            {
+                row = 1;
+                col = position - 4;
+            }
+            else
+            {
+                row = 2;
+                col = position - 7;
+            }
+
+            return new Coordinate(row, col);
+        }
+        private int GetCoordinateValue (int position)
+        {
+            Coordinate coordinate = GetCoordinate(position);
+
+            return tablero[coordinate.row, coordinate.col];
+        }
     }
 }

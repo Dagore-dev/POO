@@ -1,0 +1,14 @@
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.exe
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.deps.json
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.runtimeconfig.json
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.runtimeconfig.dev.json
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.dll
+G:\Repositorios\POO\TresEnRaya\bin\Debug\netcoreapp3.1\TresEnRaya.pdb
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.csproj.AssemblyReference.cache
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.AssemblyInfoInputs.cache
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.AssemblyInfo.cs
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.dll
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.pdb
+G:\Repositorios\POO\TresEnRaya\obj\Debug\netcoreapp3.1\TresEnRaya.genruntimeconfig.cache
