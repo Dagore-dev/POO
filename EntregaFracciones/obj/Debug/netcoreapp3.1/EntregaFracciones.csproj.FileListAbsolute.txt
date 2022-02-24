@@ -12,3 +12,17 @@ G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.
 G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.dll
 G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.pdb
 G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.genruntimeconfig.cache
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.exe
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.deps.json
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.runtimeconfig.json
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.runtimeconfig.dev.json
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.dll
+C:\Users\dagor\source\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.pdb
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.csproj.AssemblyReference.cache
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.AssemblyInfoInputs.cache
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.AssemblyInfo.cs
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.csproj.CoreCompileInputs.cache
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.dll
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.pdb
+C:\Users\dagor\source\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.genruntimeconfig.cache
