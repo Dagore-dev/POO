@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.exe
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.deps.json
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.runtimeconfig.json
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.dll
+G:\Repositorios\POO\EntregaFracciones\bin\Debug\netcoreapp3.1\EntregaFracciones.pdb
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.dll
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.pdb
+G:\Repositorios\POO\EntregaFracciones\obj\Debug\netcoreapp3.1\EntregaFracciones.genruntimeconfig.cache

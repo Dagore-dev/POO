@@ -1,0 +1,14 @@
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.exe
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.deps.json
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.runtimeconfig.json
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.runtimeconfig.dev.json
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.dll
+G:\Repositorios\POO\ExplicacionOperadores\bin\Debug\netcoreapp3.1\ExplicacionOperadores.pdb
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.csproj.AssemblyReference.cache
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.AssemblyInfoInputs.cache
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.AssemblyInfo.cs
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.dll
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.pdb
+G:\Repositorios\POO\ExplicacionOperadores\obj\Debug\netcoreapp3.1\ExplicacionOperadores.genruntimeconfig.cache
