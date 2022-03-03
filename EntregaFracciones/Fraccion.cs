@@ -80,7 +80,7 @@ namespace EntregaFracciones
         }
         public static Fraccion operator +(Fraccion f1, Fraccion f2)
         {
-            Fraccion f;
+            Fraccion f, f1S, f2S;
             int mcm, a, b;
 
             if (f1.Denominador == f2.Denominador)
@@ -89,11 +89,13 @@ namespace EntregaFracciones
             }
             else
             {
-                mcm = Mcm(f1.Denominador, f2.Denominador);
-                a = f1.Numerador * f2.Denominador;
-                b = f2.Numerador * f1.Denominador;
+                f1S = f1.Simplificar();
+                f2S = f2.Simplificar();
+                mcm = Mcm(f1S.Denominador, f2S.Denominador);
+                f1S = new Fraccion((f1S.Numerador * mcm) / f1S.Denominador, mcm);
+                f2S = new Fraccion((f2S.Numerador * mcm) / f2S.Denominador, mcm);
 
-                f = new Fraccion(a + b, mcm);
+                f = f1S + f2S;
             }
 
             return f;
