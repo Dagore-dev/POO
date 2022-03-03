@@ -1,0 +1,14 @@
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.exe
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.deps.json
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.runtimeconfig.json
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.runtimeconfig.dev.json
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.dll
+G:\Repositorios\POO\ExplicacionStatic\bin\Debug\netcoreapp3.1\ExplicacionStatic.pdb
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.csproj.AssemblyReference.cache
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.AssemblyInfoInputs.cache
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.AssemblyInfo.cs
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.dll
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.pdb
+G:\Repositorios\POO\ExplicacionStatic\obj\Debug\netcoreapp3.1\ExplicacionStatic.genruntimeconfig.cache
