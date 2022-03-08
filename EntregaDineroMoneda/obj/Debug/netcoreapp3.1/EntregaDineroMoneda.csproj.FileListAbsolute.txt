@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.exe
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.deps.json
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.runtimeconfig.json
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.dll
+G:\Repositorios\POO\EntregaDineroMoneda\bin\Debug\netcoreapp3.1\EntregaDineroMoneda.pdb
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.dll
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.pdb
+G:\Repositorios\POO\EntregaDineroMoneda\obj\Debug\netcoreapp3.1\EntregaDineroMoneda.genruntimeconfig.cache
