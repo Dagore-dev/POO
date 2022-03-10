@@ -1,0 +1,14 @@
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.exe
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.deps.json
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.runtimeconfig.json
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.runtimeconfig.dev.json
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.dll
+G:\Repositorios\POO\ExplicacionHerencia\bin\Debug\netcoreapp3.1\ExplicacionHerencia.pdb
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.csproj.AssemblyReference.cache
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.AssemblyInfoInputs.cache
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.AssemblyInfo.cs
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.dll
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.pdb
+G:\Repositorios\POO\ExplicacionHerencia\obj\Debug\netcoreapp3.1\ExplicacionHerencia.genruntimeconfig.cache
