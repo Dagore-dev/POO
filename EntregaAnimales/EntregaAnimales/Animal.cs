@@ -27,6 +27,7 @@ namespace EntregaAnimales
         public DateTime FechaNacimiento { get => fechaNacimiento; }
         public double Peso { get => peso; set => peso = value; }
         public string Comentarios { get => comentarios; set => comentarios = value; }
+        public abstract string FormatIntoCSV();
 
         public abstract override string ToString();
     }

@@ -29,6 +29,10 @@ namespace EntregaAnimales
 
         public EspeciePajaro Especie => especie;
         public bool Cantor => cantor;
+        public override string FormatIntoCSV()
+        {
+            return $"{typeof(Pajaro)},{Nombre},{Especie},{FechaNacimiento},{Peso},{Cantor},{Comentarios}";
+        }
         private string BirdState()
         {
             return $"Ficha de pájaro\nNombre: {Nombre}\nEspecie: {Especie}\nCantor: {(Cantor ? "Sí" : "No")}\nFecha de nacimiento: {FechaNacimiento:dd/MM/yyyy}\nPeso: {Peso} kg\nComentarios: {Comentarios}";

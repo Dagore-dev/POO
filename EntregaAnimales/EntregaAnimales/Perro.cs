@@ -31,6 +31,10 @@ namespace EntregaAnimales
 
         public RazaPerro Raza => raza;
         public string Microchip => microchip;
+        public override string FormatIntoCSV()
+        {
+            return $"{typeof(Perro)},{Nombre},{Raza},{FechaNacimiento},{Peso},{Microchip},{Comentarios}";
+        }
         private string DogState ()
         {
             return $"Ficha de perro\nNombre: {Nombre}\nRaza: {Raza}\nFecha de nacimiento: {FechaNacimiento:dd/MM/yyyy}\nPeso: {Peso} kg\nMicrochip: {Microchip}\nComentarios: {Comentarios}";

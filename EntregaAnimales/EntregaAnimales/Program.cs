@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace EntregaAnimales
 {
@@ -23,36 +24,50 @@ namespace EntregaAnimales
             Console.WriteLine(cv);
              */
             int option;
+            bool open = true;
 
-            Console.WriteLine("Clínica Veterinaria");
-            Console.WriteLine("Elija una opción:");
-            Console.WriteLine(" 1 - Insertar animal");
-            Console.WriteLine(" 2 - Modificar comentario");
-            Console.WriteLine(" 3 - Mostrar animal");
-            Console.WriteLine(" 4 - Mostrar todos los animales");
-            Console.WriteLine("Pulse cualquier otra tecla para salir.");
-
-            Console.Write("Su opción: ");
-            option = int.Parse(Console.ReadLine());
-
-            switch (option)
+            if (File.Exists("./clinica.csv"))
             {
-                case 1:
-                    AnimalFromConsole();
-                    break;
-                case 2:
-                    ModifyCommentFromConsole();
-                    break;
-                case 3:
-                    DisplayAnimal();
-                    break;
-                case 4:
-                    Console.WriteLine(clinicaVeterinaria);
-                    break;
-                default:
-                    Console.WriteLine("¡Hasta la próxima!");
-                    break;
+                clinicaVeterinaria.FromCSV("./clinica.csv");
             }
+
+            while (open)
+            {
+                Console.WriteLine("Clínica Veterinaria");
+                Console.WriteLine("Elija una opción:");
+                Console.WriteLine(" 1 - Insertar animal");
+                Console.WriteLine(" 2 - Modificar comentario");
+                Console.WriteLine(" 3 - Mostrar animal");
+                Console.WriteLine(" 4 - Mostrar todos los animales");
+                Console.WriteLine("Pulse cualquier otra tecla para salir.");
+
+                Console.Write("Su opción: ");
+                option = int.Parse(Console.ReadLine());
+
+                switch (option)
+                {
+                    case 1:
+                        AnimalFromConsole();
+                        break;
+                    case 2:
+                        ModifyCommentFromConsole();
+                        break;
+                    case 3:
+                        DisplayAnimal();
+                        break;
+                    case 4:
+                        Console.WriteLine(clinicaVeterinaria);
+                        break;
+                    default:
+                        Console.WriteLine("¡Hasta la próxima!");
+                        open = false;
+                        break;
+                }
+
+                Console.WriteLine();
+            }
+
+            clinicaVeterinaria.ToCSV("./clinica.csv");
         }
         static void AnimalFromConsole ()
         {
@@ -80,22 +95,74 @@ namespace EntregaAnimales
                     break;
             }
         }
-
         private static void CreateReptile ()
         {
-            throw new NotImplementedException();
-        }
+            string nombre, fechaNacimiento, especie;
+            bool venenoso;
+            double peso;
 
+            Console.Write("Nombre: ");
+            nombre = Console.ReadLine();
+
+            Console.Write("Fecha de Nacimiento: ");
+            fechaNacimiento = Console.ReadLine();
+
+            Console.Write("Raza: ");
+            especie = Console.ReadLine();
+
+            Console.Write("Peso: ");
+            peso = double.Parse(Console.ReadLine());
+
+            Console.Write("¿Es venenoso?: ");
+            venenoso = bool.Parse(Console.ReadLine());
+
+            clinicaVeterinaria.InsertaAnimal(new Reptil(nombre, DateTime.Parse(fechaNacimiento), peso, (EspecieReptil)Enum.Parse(typeof(EspecieReptil), especie), venenoso));
+        }
         private static void CreateBird ()
         {
-            throw new NotImplementedException();
-        }
+            string nombre, fechaNacimiento, especie;
+            bool cantor;
+            double peso;
 
+            Console.Write("Nombre: ");
+            nombre = Console.ReadLine();
+
+            Console.Write("Fecha de Nacimiento: ");
+            fechaNacimiento = Console.ReadLine();
+
+            Console.Write("Raza: ");
+            especie = Console.ReadLine();
+
+            Console.Write("Peso: ");
+            peso = double.Parse(Console.ReadLine());
+
+            Console.Write("¿Es cantor?: ");
+            cantor = bool.Parse(Console.ReadLine());
+
+            clinicaVeterinaria.InsertaAnimal(new Pajaro(nombre, DateTime.Parse(fechaNacimiento), peso, (EspeciePajaro)Enum.Parse(typeof(EspeciePajaro), especie), cantor));
+        }
         private static void CreateCat ()
         {
-            throw new NotImplementedException();
-        }
+            string nombre, fechaNacimiento, raza, microchip;
+            double peso;
 
+            Console.Write("Nombre: ");
+            nombre = Console.ReadLine();
+
+            Console.Write("Fecha de Nacimiento: ");
+            fechaNacimiento = Console.ReadLine();
+
+            Console.Write("Raza: ");
+            raza = Console.ReadLine();
+
+            Console.Write("Peso: ");
+            peso = double.Parse(Console.ReadLine());
+
+            Console.Write("Microchip: ");
+            microchip = Console.ReadLine();
+
+            clinicaVeterinaria.InsertaAnimal(new Gato(nombre, DateTime.Parse(fechaNacimiento), peso, (RazaGato)Enum.Parse(typeof(RazaGato), raza), microchip));
+        }
         private static void CreateDog ()
         {
             string nombre, fechaNacimiento, raza, microchip;
@@ -118,15 +185,26 @@ namespace EntregaAnimales
 
             clinicaVeterinaria.InsertaAnimal(new Perro(nombre, DateTime.Parse(fechaNacimiento), peso, (RazaPerro) Enum.Parse(typeof(RazaPerro), raza), microchip));
         }
-
         static void ModifyCommentFromConsole ()
         {
+            string name, comments;
 
+            Console.Write("Introduce el nombre de la mascota: ");
+            name = Console.ReadLine();
+
+            Console.Write("Introduce el nuevo comentario: ");
+            comments = Console.ReadLine ();
+
+            clinicaVeterinaria.ModificaComentarioAnimal(name, comments);
         }
         private static void DisplayAnimal ()
         {
-            
-        }
+            string name;
 
+            Console.Write("Introduce el nombre de la mascota: ");
+            name = Console.ReadLine ();
+
+            Console.WriteLine(clinicaVeterinaria.BuscaAnimal(name));
+        }
     }
 }

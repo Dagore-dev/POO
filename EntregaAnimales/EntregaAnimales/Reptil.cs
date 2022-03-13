@@ -34,6 +34,10 @@ namespace EntregaAnimales
         {
             return $"Ficha de reptil\nNombre: {Nombre}\nEspecie: {Especie}\nFecha de nacimiento: {FechaNacimiento:dd/MM/yyyy}\nPeso: {Peso} kg\nVenenoso: {(Venenoso ? "Sí" : "No")}\nComentarios: {Comentarios}";
         }
+        public override string FormatIntoCSV()
+        {
+            return $"{typeof(Reptil)},{Nombre},{Especie},{FechaNacimiento},{Peso},{Venenoso},{Comentarios}";
+        }
 
         public override string ToString()
         {

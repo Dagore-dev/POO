@@ -31,6 +31,10 @@ namespace EntregaAnimales
 
         public RazaGato Raza => raza;
         public string Microchip => microchip;
+        public override string FormatIntoCSV ()
+        {
+            return $"{typeof(Gato)},{Nombre},{Raza},{FechaNacimiento},{Peso},{Microchip},{Comentarios}";
+        }
         private string CatState()
         {
             return $"Ficha de gato\nNombre: {Nombre}\nRaza: {Raza}\nFecha de nacimiento: {FechaNacimiento:dd/MM/yyyy}\nPeso: {Peso} kg\nMicrochip: {Microchip}\nComentarios: {Comentarios}";
