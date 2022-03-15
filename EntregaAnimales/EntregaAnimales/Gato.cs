@@ -33,7 +33,7 @@ namespace EntregaAnimales
         public string Microchip => microchip;
         public override string FormatIntoCSV ()
         {
-            return $"{typeof(Gato)},{Nombre},{Raza},{FechaNacimiento},{Peso},{Microchip},{Comentarios}";
+            return $"{typeof(Gato)},{Nombre},{FechaNacimiento},{Peso},{raza},{Microchip},{Comentarios},";
         }
         private string CatState()
         {

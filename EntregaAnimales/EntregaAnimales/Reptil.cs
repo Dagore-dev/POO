@@ -36,7 +36,7 @@ namespace EntregaAnimales
         }
         public override string FormatIntoCSV()
         {
-            return $"{typeof(Reptil)},{Nombre},{Especie},{FechaNacimiento},{Peso},{Venenoso},{Comentarios}";
+            return $"{typeof(Reptil)},{Nombre},{FechaNacimiento},{Peso},{Especie},{Venenoso},{Comentarios},";
         }
 
         public override string ToString()

@@ -12,3 +12,17 @@ D:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\Entr
 D:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.dll
 D:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.pdb
 D:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.genruntimeconfig.cache
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.exe
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.deps.json
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.runtimeconfig.json
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.dll
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\bin\Debug\netcoreapp3.1\EntregaAnimales.pdb
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.dll
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.pdb
+G:\Repositorios\POO\EntregaAnimales\EntregaAnimales\obj\Debug\netcoreapp3.1\EntregaAnimales.genruntimeconfig.cache

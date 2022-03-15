@@ -107,7 +107,7 @@ namespace EntregaAnimales
             Console.Write("Fecha de Nacimiento: ");
             fechaNacimiento = Console.ReadLine();
 
-            Console.Write("Raza: ");
+            Console.Write("Especie (0-2): ");
             especie = Console.ReadLine();
 
             Console.Write("Peso: ");
@@ -130,7 +130,7 @@ namespace EntregaAnimales
             Console.Write("Fecha de Nacimiento: ");
             fechaNacimiento = Console.ReadLine();
 
-            Console.Write("Raza: ");
+            Console.Write("Especie (0-2): ");
             especie = Console.ReadLine();
 
             Console.Write("Peso: ");
@@ -152,7 +152,7 @@ namespace EntregaAnimales
             Console.Write("Fecha de Nacimiento: ");
             fechaNacimiento = Console.ReadLine();
 
-            Console.Write("Raza: ");
+            Console.Write("Raza (0-4): ");
             raza = Console.ReadLine();
 
             Console.Write("Peso: ");
@@ -174,7 +174,7 @@ namespace EntregaAnimales
             Console.Write("Fecha de Nacimiento: ");
             fechaNacimiento = Console.ReadLine ();
 
-            Console.Write("Raza: ");
+            Console.Write("Raza (0-4): ");
             raza = Console.ReadLine ();
 
             Console.Write("Peso: ");

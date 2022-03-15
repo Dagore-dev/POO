@@ -31,7 +31,7 @@ namespace EntregaAnimales
         public bool Cantor => cantor;
         public override string FormatIntoCSV()
         {
-            return $"{typeof(Pajaro)},{Nombre},{Especie},{FechaNacimiento},{Peso},{Cantor},{Comentarios}";
+            return $"{typeof(Pajaro)},{Nombre},{FechaNacimiento},{Peso},{Especie},{Cantor},{Comentarios},";
         }
         private string BirdState()
         {

@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.exe
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.deps.json
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.runtimeconfig.json
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.dll
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\bin\Debug\netcoreapp3.1\EntregaProfesorTribunal.pdb
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.dll
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.pdb
+G:\Repositorios\POO\EntregaProfesorTribunal\EntregaProfesorTribunal\obj\Debug\netcoreapp3.1\EntregaProfesorTribunal.genruntimeconfig.cache

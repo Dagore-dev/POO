@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj": {}
+    "G:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj": {}
   },
   "projects": {
-    "D:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj": {
+    "G:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj",
+        "projectUniqueName": "G:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj",
         "projectName": "EntregaAnimales",
-        "projectPath": "D:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj",
-        "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\obj\\",
+        "projectPath": "G:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\EntregaAnimales.csproj",
+        "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
+        "outputPath": "G:\\Repositorios\\POO\\EntregaAnimales\\EntregaAnimales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

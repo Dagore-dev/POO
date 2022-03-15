@@ -49,7 +49,6 @@ namespace EntregaAnimales
         public void FromCSV (string path)
         {
             StreamReader sr = new StreamReader (path);
-            Animal animal;
             int count = int.Parse(sr.ReadLine());
             string[] record;
 
@@ -57,25 +56,23 @@ namespace EntregaAnimales
             {
                 record = sr.ReadLine().Split(',');
 
-                //Thinking in a solution like this
                 switch (record[0])
                 {
                     case "EntregaAnimales.Gato":
-
+                        InsertaAnimal(new Gato(record[1], DateTime.Parse(record[2]), double.Parse(record[3]), (RazaGato) Enum.Parse(typeof(RazaGato), record[4]), record[5]));
                         break;
                     case "EntregaAnimales.Perro":
-
+                        InsertaAnimal(new Perro(record[1], DateTime.Parse(record[2]), double.Parse(record[3]), (RazaPerro) Enum.Parse(typeof(RazaPerro), record[4]), record[5]));
                         break;
                     case "EntregaAnimales.Pajaro":
-
+                        InsertaAnimal(new Pajaro(record[1], DateTime.Parse(record[2]), double.Parse(record[3]), (EspeciePajaro)Enum.Parse(typeof(EspeciePajaro), record[4]), bool.Parse(record[5]), record[6]));
                         break;
                     case "EntregaAnimales.Reptil":
-
+                        InsertaAnimal(new Reptil(record[1], DateTime.Parse(record[2]), double.Parse(record[3]), (EspecieReptil)Enum.Parse(typeof(EspecieReptil), record[4]), bool.Parse(record[5])));
                         break;
                     default:
                         break;
                 }
-                //Create instance of the properly subtype of Animal and add to the list.
             }
 
             sr.Close();

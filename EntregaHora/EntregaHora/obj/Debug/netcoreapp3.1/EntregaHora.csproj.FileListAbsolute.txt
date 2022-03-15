@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.exe
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.deps.json
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.runtimeconfig.json
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.dll
+G:\Repositorios\POO\EntregaHora\EntregaHora\bin\Debug\netcoreapp3.1\EntregaHora.pdb
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.dll
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.pdb
+G:\Repositorios\POO\EntregaHora\EntregaHora\obj\Debug\netcoreapp3.1\EntregaHora.genruntimeconfig.cache
