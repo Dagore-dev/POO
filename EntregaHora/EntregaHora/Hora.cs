@@ -42,21 +42,7 @@ namespace EntregaHora
             }
             set
             {
-                int horas = value, horasActuales = Horas;
-
-                while (horas != horasActuales)
-                {
-                    if (horas < horasActuales)
-                    {
-                        SegundosTotales -= 3600;
-                        horasActuales -= 1;
-                    }
-                    else
-                    {
-                        SegundosTotales += 3600;
-                        horasActuales += 1;
-                    }
-                }
+                SegundosTotales = value * 3600 + Minutos * 60 + Segundos; 
             }
         }
         public int Minutos
@@ -69,21 +55,7 @@ namespace EntregaHora
             {
                 if (value >= 0 && value <= 59)
                 {
-                    int minutos = value, minutosActuales = Minutos;
-
-                    while (minutos != minutosActuales)
-                    {
-                        if (minutos < minutosActuales)
-                        {
-                            SegundosTotales -= 60;
-                            minutosActuales -= 1;
-                        }
-                        else
-                        {
-                            SegundosTotales += 60;
-                            minutosActuales += 1;
-                        }
-                    }
+                    SegundosTotales = Horas * 3600 + value * 60 + Segundos;
                 }
                 else
                 {
@@ -101,21 +73,7 @@ namespace EntregaHora
             {
                 if (value >= 0 && value <= 59)
                 {
-                    int segundos = value, segundosActuales = Segundos;
-
-                    while (segundos != segundosActuales)
-                    {
-                        if (segundos < segundosActuales)
-                        {
-                            SegundosTotales -= 1;
-                            segundosActuales -= 1;
-                        }
-                        else
-                        {
-                            SegundosTotales += 1;
-                            segundosActuales += 1;
-                        }
-                    }
+                    SegundosTotales = Horas * 3600 + Minutos * 60 + value;
                 }
                 else
                 {
@@ -155,7 +113,7 @@ namespace EntregaHora
 
         private string Representation ()
         {
-            return $"{Horas}:{Minutos}:{Segundos}";
+            return $"{Horas.ToString().PadLeft(2, '0')}:{Minutos.ToString().PadLeft(2, '0')}:{Segundos.ToString().PadLeft(2, '0')}";
         }
         public override string ToString()
         {
