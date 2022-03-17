@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.exe
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.deps.json
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.runtimeconfig.json
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.dll
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.pdb
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.dll
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.pdb
+G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.genruntimeconfig.cache

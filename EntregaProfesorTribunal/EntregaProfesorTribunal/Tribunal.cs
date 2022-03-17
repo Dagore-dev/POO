@@ -47,30 +47,76 @@ namespace EntregaProfesorTribunal
 
             Console.WriteLine("Vocales elegidos para el sorteo: ");
 
-            while (hombres < 2 || mujeres < 2)
+            if (GetNumberMen() < 2 || GetNumberWomen() < 2)
             {
-                profesor = listaProfesores[r];
-
-                if (profesor.Genero == TipoGenero.Hombre && hombres < 2)
+                while (hombres < 2 || mujeres < 2)
                 {
-                    Console.WriteLine(profesor);
-                    hombres++;
-                }
+                    profesor = listaProfesores[r];
 
-                if (profesor.Genero == TipoGenero.Mujer && mujeres < 2)
-                {
-                    Console.WriteLine(profesor);
-                    mujeres++;
-                }
+                    if (profesor.Genero == TipoGenero.Hombre && hombres < 2)
+                    {
+                        Console.WriteLine(profesor);
+                        hombres++;
+                    }
 
-                r++;
+                    if (profesor.Genero == TipoGenero.Mujer && mujeres < 2)
+                    {
+                        Console.WriteLine(profesor);
+                        mujeres++;
+                    }
 
-                if (r == listaProfesores.Count)
-                {
-                    r = 0;
+                    r++;
+
+                    if (r == listaProfesores.Count)
+                    {
+                        r = 0;
+                    }
                 }
             }
+            else
+            {
+                throw new Exception("No se puede montar un tribunal paritario.");
+            }
+            
+
         }
+
+        private int GetNumberWomen()
+        {
+            Profesor profesor;
+            int women = 0;
+
+            for (int i = 0; i < listaProfesores.Count; i++)
+            {
+                profesor = listaProfesores[i];
+
+                if (profesor.Genero == TipoGenero.Mujer)
+                {
+                    women++;
+                }
+            }
+
+            return women;
+        }
+
+        private int GetNumberMen()
+        {
+            Profesor profesor;
+            int men = 0;
+
+            for (int i = 0; i < listaProfesores.Count; i++)
+            {
+                profesor = listaProfesores[i];
+
+                if (profesor.Genero == TipoGenero.Hombre)
+                {
+                    men++;
+                }
+            }
+
+            return men;
+        }
+
         public void EligeTribunalPro ()
         {
             listaProfesores.Sort();
