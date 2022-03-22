@@ -12,3 +12,17 @@ G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.
 G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.dll
 G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.pdb
 G:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.genruntimeconfig.cache
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.exe
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.deps.json
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.runtimeconfig.json
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.runtimeconfig.dev.json
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.dll
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\bin\Debug\netcoreapp3.1\EntregaVentaCoches.pdb
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.csproj.AssemblyReference.cache
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.AssemblyInfoInputs.cache
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.AssemblyInfo.cs
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.csproj.CoreCompileInputs.cache
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.dll
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.pdb
+D:\Repositorios\POO\EntregaVentaCoches\EntregaVentaCoches\obj\Debug\netcoreapp3.1\EntregaVentaCoches.genruntimeconfig.cache

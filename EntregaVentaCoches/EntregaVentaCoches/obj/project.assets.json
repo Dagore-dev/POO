@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Dagore\\.nuget\\packages\\": {}
+    "C:\\Users\\dagor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\EntregaVentaCoches.csproj",
+      "projectUniqueName": "D:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\EntregaVentaCoches.csproj",
       "projectName": "EntregaVentaCoches",
-      "projectPath": "G:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\EntregaVentaCoches.csproj",
-      "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-      "outputPath": "G:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\obj\\",
+      "projectPath": "D:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\EntregaVentaCoches.csproj",
+      "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositorios\\POO\\EntregaVentaCoches\\EntregaVentaCoches\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
