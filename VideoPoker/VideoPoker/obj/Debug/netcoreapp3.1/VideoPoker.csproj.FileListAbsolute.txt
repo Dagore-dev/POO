@@ -1,0 +1,14 @@
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.exe
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.deps.json
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.runtimeconfig.json
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.runtimeconfig.dev.json
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.dll
+G:\Repositorios\POO\VideoPoker\VideoPoker\bin\Debug\netcoreapp3.1\VideoPoker.pdb
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.csproj.AssemblyReference.cache
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.AssemblyInfoInputs.cache
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.AssemblyInfo.cs
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.dll
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.pdb
+G:\Repositorios\POO\VideoPoker\VideoPoker\obj\Debug\netcoreapp3.1\VideoPoker.genruntimeconfig.cache
