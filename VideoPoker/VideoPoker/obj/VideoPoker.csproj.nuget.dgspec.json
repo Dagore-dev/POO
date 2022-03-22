@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {}
+    "D:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {}
   },
   "projects": {
-    "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {
+    "D:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
+        "projectUniqueName": "D:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
         "projectName": "VideoPoker",
-        "projectPath": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
-        "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-        "outputPath": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\obj\\",
+        "projectPath": "D:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
+        "packagesPath": "C:\\Users\\dagor\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
