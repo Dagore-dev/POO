@@ -57,7 +57,7 @@ namespace VideoPoker
         }
         public bool IsRoyalFlush ()
         {
-            return IsStraightFlush() && hand[4].Rank == 'A';
+            return IsStraightFlush() && hand[4].Rank == "A";
         }
         public string Representation ()
         {

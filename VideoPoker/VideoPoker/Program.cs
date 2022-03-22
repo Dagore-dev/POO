@@ -12,6 +12,9 @@ namespace VideoPoker
             Console.WriteLine(pokerHand.IsPair());
             Console.WriteLine(pokerHand.IsTwoPair());
             Console.WriteLine(pokerHand.IsFull());
+
+            PokerDeck deck = new PokerDeck();
+            Console.WriteLine(deck.CardList());
         }
     }
 }

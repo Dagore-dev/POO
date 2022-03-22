@@ -12,7 +12,13 @@ namespace VideoPoker
         {
             deck = new List<PokerCard> ();
 
-            //TODO: Añadir las 52 cartas de la baraja.
+            for (int i = 0; i < 12; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    deck.Add(new PokerCard((Rank)i, (Suit)j));
+                }
+            }
 
             Shuffle();
         }
@@ -43,6 +49,17 @@ namespace VideoPoker
             }
 
             return result;
+        }
+        public string CardList ()
+        {
+            StringBuilder sb = new StringBuilder ();
+
+            foreach (PokerCard pokerCard in deck)
+            {
+                sb.AppendLine(pokerCard.ToString());
+            }
+
+            return sb.ToString ();
         }
     }
 }

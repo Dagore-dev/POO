@@ -38,7 +38,7 @@ namespace VideoPoker
             this.suit = suit;
         }
 
-        public char Rank 
+        public string Rank 
         { get 
             { return GetRankSymbol(rank); } 
         }
@@ -47,47 +47,47 @@ namespace VideoPoker
             get { return GetSuitSymbol(suit); } 
         }
 
-        private char GetRankSymbol (Rank rank)
+        private string GetRankSymbol (Rank rank)
         {
-            char symbol;
+            string symbol;
 
             switch (rank)
             {
                 case VideoPoker.Rank.N2:
-                    symbol = '2';
+                    symbol = "2";
                     break;
                 case VideoPoker.Rank.N3:
-                    symbol = '3';
+                    symbol = "3";
                     break;
                 case VideoPoker.Rank.N4:
-                    symbol = '4';
+                    symbol = "4";
                     break;
                 case VideoPoker.Rank.N5:
-                    symbol = '5';
+                    symbol = "5";
                     break;
                 case VideoPoker.Rank.N6:
-                    symbol = '6';
+                    symbol = "6";
                     break;
                 case VideoPoker.Rank.N7:
-                    symbol = '7';
+                    symbol = "7";
                     break;
                 case VideoPoker.Rank.N8:
-                    symbol = '8';
+                    symbol = "8";
                     break;
                 case VideoPoker.Rank.N9:
-                    symbol = '9';
+                    symbol = "9";
                     break;
                 case VideoPoker.Rank.N10:
-                    symbol = '9';
+                    symbol = "10";
                     break;
                 case VideoPoker.Rank.Jack:
-                    symbol = 'J';
+                    symbol = "J";
                     break;
                 case VideoPoker.Rank.Queen:
-                    symbol = 'Q';
+                    symbol = "Q";
                     break;
                 case VideoPoker.Rank.Ace:
-                    symbol = 'A';
+                    symbol = "A";
                     break;
                 default:
                     throw new Exception("Not a rank");
