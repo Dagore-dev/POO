@@ -1,0 +1,14 @@
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.exe
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.deps.json
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.runtimeconfig.json
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.runtimeconfig.dev.json
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.dll
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\bin\Debug\netcoreapp3.1\EntregaPokemon.pdb
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.csproj.AssemblyReference.cache
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.AssemblyInfoInputs.cache
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.AssemblyInfo.cs
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.csproj.CoreCompileInputs.cache
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.dll
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.pdb
+G:\Repositorios\POO\EntregaPokemon\EntregaPokemon\obj\Debug\netcoreapp3.1\EntregaPokemon.genruntimeconfig.cache

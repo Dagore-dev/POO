@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {}
+    "G:\\Repositorios\\POO\\EntregaPokemon\\EntregaPokemon\\EntregaPokemon.csproj": {}
   },
   "projects": {
-    "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj": {
+    "G:\\Repositorios\\POO\\EntregaPokemon\\EntregaPokemon\\EntregaPokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
-        "projectName": "VideoPoker",
-        "projectPath": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\VideoPoker.csproj",
+        "projectUniqueName": "G:\\Repositorios\\POO\\EntregaPokemon\\EntregaPokemon\\EntregaPokemon.csproj",
+        "projectName": "EntregaPokemon",
+        "projectPath": "G:\\Repositorios\\POO\\EntregaPokemon\\EntregaPokemon\\EntregaPokemon.csproj",
         "packagesPath": "C:\\Users\\Dagore\\.nuget\\packages\\",
-        "outputPath": "G:\\Repositorios\\POO\\VideoPoker\\VideoPoker\\obj\\",
+        "outputPath": "G:\\Repositorios\\POO\\EntregaPokemon\\EntregaPokemon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dagore\\AppData\\Roaming\\NuGet\\NuGet.Config",

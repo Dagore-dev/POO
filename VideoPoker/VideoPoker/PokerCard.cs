@@ -138,7 +138,21 @@ namespace VideoPoker
         }
         public int CompareTo([AllowNull] PokerCard other)
         {
-            return this.rank.CompareTo(other.rank) + this.suit.CompareTo(other.suit);
+            if (this.rank.CompareTo(other.rank) >= 0)
+            {
+                if (this.rank.CompareTo(other.rank) > 0)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return this.suit.CompareTo(other.suit);
+                }
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
